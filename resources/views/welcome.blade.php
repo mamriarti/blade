@@ -6,16 +6,15 @@
 @endsection
 --}}
 <x-layout>
-    <x-section>
-        <h1>Hello world</h1>
-    </x-section>
-
-    <x-section>
-        <h1>Hello world Again</h1>
-    </x-section>
-
-    <x-section>
-        <h1>Hello world Three Times</h1>
-    </x-section>
-
+   <x-flash>
+       You are logged out!
+   </x-flash>
+<br>
+    <x-flash type="error">
+        You are logged out!
+    </x-flash>
+<br>
+    <x-flash type="warning">
+        You are logged out!
+    </x-flash>
 </x-layout>
